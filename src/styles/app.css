@@ -1,0 +1,88 @@
+.app {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.boardContainer {
+  height: 80%;
+  padding: 10px;
+  position: relative;
+}
+
+.add-list-btn {
+  position: absolute;
+  left: 90%;
+  top: -3%;
+  cursor: pointer;
+
+}
+
+.listContainer {
+  height: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.list {
+  width: 280px;
+  height: 98%;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.card {
+  width: 160px;
+  min-height: 100px;
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.list,
+.card {
+  position: relative;
+  border: 1px solid;
+  background-color: #f4f2f2;
+  border-top: 4px solid blue;
+  overflow-y: scroll;
+}
+
+.add-card-btn {
+  font-size: 24px;
+  position: sticky;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.cross-btn {
+  font-size: 18px;
+  font-weight: bolder;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card-desc {
+  width: 160px;
+  white-space: initial;
+  overflow: auto;
+}
